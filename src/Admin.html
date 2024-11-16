@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h2 class="sidebar-title">Quiz Master</h2>
+        <div class="profile">
+          <img src="SWE363-project/1144760.png" alt="Profile Icon">
+          <p>Username: Admin</p>
+        </div>
+        <nav>
+          <ul>
+            <li>Dashboard</li>
+            <li>Members</li>
+            <li>Quizzes</li>
+          </ul>
+        </nav>
+        <div class="footer">
+          <p>3 October, 2024</p>
+          <p>Admin</p>
+          <button>LOG OUT</button>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <header>
+          <h1>Good Afternoon, Admin</h1>
+          <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button>🔍</button>
+          </div>
+        </header>
+
+        <!-- Student Info Section -->
+        <section class="student-info">
+          <h2>Student Info</h2>
+          <div class="student-card">
+            <input type="checkbox">
+            <span>Khalid</span>
+            <a href="Edit.html" class="edit-btn">Edit<a>
+                <button class="delete-btn">Delete</button>
+          </div>
+          <div class="student-card">
+            <input type="checkbox">
+            <span>Abdulmalik</span>
+            <a href="SWE363-project/Edit.html" class="edit-btn">Edit<a></a>
+              <button class="edit-btn">✏️</button>
+              <button class="delete-btn">🗑️</button>
+          </div>
+          <div class="student-card">
+            <input type="checkbox">
+            <span>Zyad</span>
+            <a href="SWE363-project/Edit.html" class="edit-btn">Edit<a></a>
+              <button href="Edit.html" class="edit-btn">✏️</button>
+              <button class="delete-btn">🗑️</button>
+          </div>
+        </section>
+
+        <!-- Quizzes Section -->
+        <section class="quizzes">
+          <h2>Quizzes</h2>
+          <div class="quiz-card">
+            <input type="checkbox">
+            <span>HTML Practice</span>
+            <a href="SWE363-project/quizInfo.html" class="edit-btn">Edit</a>
+            <label class="status active">Active</label>
+            <button class="edit-btn">✏️</button>
+            <button class="delete-btn">🗑️</button>
+          </div>
+          <div class="quiz-card">
+            <input type="checkbox">
+            <span>World Geography</span>
+            <label class="status inactive">Not Active</label>
+            <button class="edit-btn">✏️</button>
+            <button class="delete-btn">🗑️</button>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+
+</html>
